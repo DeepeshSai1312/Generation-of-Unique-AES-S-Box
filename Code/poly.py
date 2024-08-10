@@ -1,3 +1,4 @@
+#test_commit
 def rotl8(x, shift):
     """Rotate left an 8-bit integer x by shift positions."""
     return ((x << shift) & 0xFF) | (x >> (8 - shift))
